@@ -3,7 +3,7 @@
 	<h2 class="uk-article-title">
 		<a href="{{ .Permalink }}">{{ .Title }}</a>
 	</h2>
-  {{ .Summary }}
+  {{/* .Summary */}}
 	{{ $baseurl := .Site.BaseURL }}
   {{ if .Truncated }}
 	<p><!-- <span class="uk-align-right"> --><a class="uk-button uk-button-small uk-button-primary" href="{{ .Permalink }}">more...</a><!-- </span> --></p>
